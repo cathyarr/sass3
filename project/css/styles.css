@@ -1,3 +1,4 @@
+/* line 8, C:/Users/NGA_XFO/Desktop/project/sass/styles.sass */
 .btn, .btn-reverse {
   padding: 6px;
   line-height: 140%;
@@ -6,24 +7,30 @@
   border: 1px solid white;
 }
 
+/* line 15, C:/Users/NGA_XFO/Desktop/project/sass/styles.sass */
 .btn-reverse {
   background: #fcf4dc;
   color: #c61c6f;
 }
 
+/* line 20, C:/Users/NGA_XFO/Desktop/project/sass/styles.sass */
 .sidebar {
   background-color: red;
 }
 
+/* line 31, C:/Users/NGA_XFO/Desktop/project/sass/styles.sass */
 ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
+/* line 35, C:/Users/NGA_XFO/Desktop/project/sass/styles.sass */
 ul li img {
   display: block;
   -webkit-border-radius: 20px;
   border-radius: 20px;
   backround-clip: padding-box;
 }
+
+/*# sourceMappingURL=../css/styles.map */

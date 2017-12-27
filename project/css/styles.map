@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/styles.css",
+	"sources": [
+		"../sass/styles.sass"
+	],
+	"sourcesContent": [
+		"$white: #fff;\n$zeroOpacity: 0;\n\n$border_thickness: 1px;\n$thicker: $border_thickness * 5;\n\n\n.btn {\n  padding: 6px;\n  line-height: 140%;\n  text-align: center;\n  vertical-align: middle;\n  border: 1px solid transparentize($white, $zeroOpacity); }\n\n.btn-reverse {\n  @extend .btn;\n  background: #fcf4dc;\n  color: #c61c6f; }\n\n.sidebar {\n  @if ($border_thickness <=1) {\n    background-color: red; }\n  @else {\n    background-color: yellow; } }\n\n@mixin rounded($radius: 10px) {\n  -webkit-border-radius: $radius;\n  border-radius: $radius;\n  backround-clip: padding-box; }\n\nul {\n  padding: 0;\n  margin: 0;\n  list-style: none;\n  li img {\n    display: block;\n    @include rounded(20px); } }\n"
+	],
+	"mappings": ";AAOA,AAAA,IAAI,EAOJ,AAPA,YAOY,CAPP;EACH,OAAO,EAAE,GAAI;EACb,WAAW,EAAE,IAAK;EAClB,UAAU,EAAE,MAAO;EACnB,cAAc,EAAE,MAAO;EACvB,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,KAAc;CAAyB;;;AAE3D,AAAA,YAAY,CAAC;EAEX,UAAU,EAAE,OAAQ;EACpB,KAAK,EAAE,OAAQ;CAAG;;;AAEpB,AAAA,QAAQ,CAAC;EAEL,gBAAgB,EAAE,GAAI;CAEQ;;;AAOlC,AAAA,EAAE,CAAC;EACD,OAAO,EAAE,CAAE;EACX,MAAM,EAAE,CAAE;EACV,UAAU,EAAE,IAAK;CAGY;;;AAN/B,AAIK,EAJH,CAIA,EAAE,CAAC,GAAG,CAAC;EACL,OAAO,EAAE,KAAM;EATjB,qBAAqB,EAUF,IAAI;EATvB,aAAa,EASM,IAAI;EARvB,cAAc,EAAE,WAAY;CAQD",
+	"names": []
+}
