@@ -1,0 +1,37 @@
+$white: #fff
+$zeroOpacity: 0
+
+$border_thickness: 1px
+$thicker: $border_thickness * 5
+
+
+.btn
+  padding: 6px
+  line-height: 140%
+  text-align: center
+  vertical-align: middle
+  border: 1px solid transparentize($white, $zeroOpacity)
+
+.btn-reverse
+  @extend .btn
+  background: #fcf4dc
+  color: #c61c6f
+
+.sidebar
+  @if ($border_thickness <=1)
+    background-color: red
+  @else
+    background-color: yellow
+
+@mixin rounded($radius: 10px)
+  -webkit-border-radius: $radius
+  border-radius: $radius
+  backround-clip: padding-box
+
+ul
+  padding: 0
+  margin: 0
+  list-style: none
+  li img
+    display: block
+    +rounded(20px)
